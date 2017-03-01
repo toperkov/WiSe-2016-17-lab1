@@ -11,5 +11,28 @@ Cilj ove vježbe je upoznavanje studenta sa PlatformIO IDE programskim okruženj
 
 1. Da biste kreirali novi projekt u PlatformIO IDE-u kliknite na Menu: ``PlatformIO > Initialize new Project or update existing``
 
-2. Nakon toga će vam se pojaviti prozor u kojem ćete trebat odabrati platformu s kojom ćete raditi (možete ih više odabrati). Klikom na `` -- chose a board (one at a time) --`` selektirajte Arduino Uno platformu. Nakon toga odaberite direktorij u kojem ćete sačuvati projekt (npr. 'C:/Users/Student/Desktop/Ivan') te kliknite na `Initialize`
+2. Nakon toga će vam se pojaviti prozor u kojem ćete trebat odabrati platformu s kojom ćete raditi (možete ih više odabrati). Klikom na `` -- chose a board (one at a time) --`` selektirajte Arduino Uno platformu. Nakon toga odaberite direktorij u kojem ćete sačuvati projekt (npr. 'C:/Users/Student/Desktop/Ivan/Blink') te kliknite na `Initialize`. Ukoliko je sve bilo uspješno, trebao bi se pojaviti u lijevom dijelu prozora panel sa direktorijima i dokumentima.
 
+3. Nakon toga ćete kreirati vaš prvi projekt. Desnim klikom na `scr` direktorij kliknite na `New File` te ga nazovite npr. `Blink.ino`. U njega kopirajte sljedeći kod:
+
+```arduino
+// Pin 13 has an LED connected on most Arduino boards.
+// give it a name:
+int led = 13;
+
+// the setup routine runs once when you press reset:
+void setup() {
+  // initialize the digital pin as an output.
+  pinMode(led, OUTPUT);
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);               // wait for a second
+  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);               // wait for a second
+}
+```
+
+![arduinouno](https://cloud.githubusercontent.com/assets/8695815/23479548/1b852614-fec5-11e6-906c-c90e5661ac15.PNG)
