@@ -14,6 +14,7 @@ Cilj ove vježbe je upoznavanje studenta sa PlatformIO IDE programskim okruženj
 
 1. Da biste realizirali prvi projet jednostavno spojite komponente kako su navedene na slici. Primjetit ćete da je kod LED diode jedna žica dulja od druge. Upravo ta dulja žica treba biti povezana na PIN 13 kao što je prikazano na slici, dok je kraća žica povezana na GND (eng. Ground) PIN.
 
+![arduinounomali](https://cloud.githubusercontent.com/assets/8695815/23481290/3e0e4fd4-fecb-11e6-8d90-3b66f4cdfd7a.PNG)
 
 Primjer Arduino simulatora možete naći na [Autodesk Circuits module](https://circuits.io/circuits/4142024-simple-blink) stranici na kojoj možete kreirati jednostavne diagrame.
 
