@@ -1,3 +1,6 @@
+![arduinoblinkgif](https://cloud.githubusercontent.com/assets/8695815/23480241/8e5f41e0-fec7-11e6-8439-0f596aec5f54.gif)
+
+
 # Bežične senzorske mreže - Lab 1
 
 ### FESB, smjer 110/111/112/114/120, akademska godina 2016/2017
