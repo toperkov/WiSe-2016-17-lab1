@@ -37,5 +37,8 @@ void loop() {
 
 4. Da biste provjerili ispravnost koda kliknite na `Build`. Ukoliko je sve ispravno, trebao bi se pojaviti success zelenom bojom u Build panelu
 
+![ide-atom-platformio-quick-start-6](https://cloud.githubusercontent.com/assets/8695815/23480154/3a024bba-fec7-11e6-8604-65a1bb82c856.png)
+
+5. Nakon toga, klikom na `Upload` učitajte firmware na Arduino Uno.
 
 ![arduinouno](https://cloud.githubusercontent.com/assets/8695815/23479548/1b852614-fec5-11e6-906c-c90e5661ac15.PNG)
