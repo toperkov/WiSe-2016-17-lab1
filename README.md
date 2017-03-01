@@ -16,13 +16,13 @@ Cilj ove vježbe je upoznavanje studenta sa PlatformIO IDE programskim okruženj
 
 ![arduinounomali](https://cloud.githubusercontent.com/assets/8695815/23481290/3e0e4fd4-fecb-11e6-8d90-3b66f4cdfd7a.PNG)
 
-Primjer Arduino simulatora možete naći na [Autodesk Circuits module](https://circuits.io/circuits/4142024-simple-blink) stranici na kojoj možete kreirati jednostavne diagrame.
+Primjer Arduino simulatora možete naći na [Autodesk Circuits module](https://circuits.io/circuits/4142024-simple-blink) stranici na kojoj možete kreirati jednostavne diagrame za vaše Arduino projekte.
 
 ## Upute za kreiranje prvog projekta u PlatformIO IDE okruženju
 
 1. Da biste kreirali novi projekt u PlatformIO IDE-u kliknite na Menu: ``PlatformIO > Initialize new Project or update existing``
 
-2. Nakon toga će vam se pojaviti prozor u kojem ćete trebat odabrati platformu s kojom ćete raditi (možete ih više odabrati). Klikom na `` -- chose a board (one at a time) --`` odeberite `Arduino Uno` platformu. Nakon toga odaberite direktorij u kojem ćete sačuvati projekt (npr. 'C:/Users/Student/Desktop/Ivan/Blink') te kliknite na `Initialize`. Ukoliko je sve bilo uspješno, trebao bi se u lijevom dijelu prozora pojaviti panel sa direktorijima i dokumentima.
+2. Nakon toga će vam se pojaviti prozor u kojem ćete trebati odabrati platformu s kojom ćete raditi (možete ih više odabrati). Klikom na `` -- chose a board (one at a time) --`` odeberite `Arduino Uno` platformu. Nakon toga odaberite direktorij u kojem ćete sačuvati projekt (npr. 'C:/Users/Student/Desktop/Ivan/Blink') te kliknite na `Initialize`. Ukoliko je sve bilo uspješno, trebao bi se u lijevom dijelu prozora pojaviti panel sa direktorijima i dokumentima.
 
 3. Nakon toga ćete kreirati vaš prvi projekt. Desnim klikom na `scr` direktorij kliknite na `New File` te ga nazovite npr. `Blink.ino`. U njega kopirajte sljedeći kod:
 
@@ -46,11 +46,8 @@ void loop() {
 }
 ```
 
-4. Da biste provjerili ispravnost koda kliknite na `Build`. Ukoliko je sve ispravno, trebao bi se pojaviti success zelenom bojom u Build panelu
+4. Da biste provjerili ispravnost koda kliknite na `Build`. Ukoliko je sve ispravno, trebao bi se pojaviti *success* prikazan zelenom bojom u Build panelu.
 
 ![ide-atom-platformio-quick-start-6](https://cloud.githubusercontent.com/assets/8695815/23480154/3a024bba-fec7-11e6-8604-65a1bb82c856.png)
 
 5. Nakon toga, klikom na `Upload` učitajte firmware na Arduino Uno.
-
-
-
